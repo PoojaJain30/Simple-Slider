@@ -102,7 +102,7 @@
 
 .cus-slider-arrowleft {
     float: left;
-    background-image: url(/Users/poojajain/Desktop/Slider/Polygon.png);
+    background-image: url(img/Polygon.png);
     background-size: 75% auto;
     background-repeat: no-repeat;
     background-position: 0 3px;
@@ -111,11 +111,11 @@
 }
 
 .cus-slider-arrowrightactive {
-    background-image: url(/Users/poojajain/Desktop/Slider/Polygon2.png) !important;
+    background-image: url(img/Polygon2.png) !important;
 }
 
 .cus-slider-arrowright {
-    background-image: url(/Users/poojajain/Desktop/Slider/Polygon_left.png);
+    background-image: url(img/Polygon_left.png);
     background-size: 75% auto;
     background-repeat: no-repeat;
     background-position: 0 3px;
@@ -126,7 +126,7 @@
 }
 
 .cus-slider-arrowleftactive {
-    background-image: url(/Users/poojajain/Desktop/Slider/Polygon3.png) !important;
+    background-image: url(img/Polygon3.png) !important;
 }
 
 .cus-slider-descriptions {
