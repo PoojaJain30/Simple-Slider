@@ -1,0 +1,154 @@
+.cus-slider-hide {
+    display: none;
+}
+
+.cus-slider-invisible {
+    visibility: hidden;
+}
+
+#cus-slider-wrapper {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    margin-top: 32px;
+}
+
+.cus-slider-heading {
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    font-style: normal;
+    margin-bottom: 22px;
+    padding-bottom: 0px;
+    margin-top: 8px;
+}
+
+#cus-slider-wrapper {
+    margin-top: 8px;
+}
+
+.cus-slider-heading {
+    font-size: 18px;
+    margin-top: 14px;
+    margin-bottom: 13px;
+}
+
+.arrow-upMobile {
+    left: 50%;
+    border-left: 14px solid transparent;
+    border-right: 13px solid transparent;
+    border-bottom: 11px solid #00567A;
+    top: -16%;
+    position: absolute;
+    margin-left: -14px;
+}
+
+.cus-slider-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.cus-slider-slides {
+    /*width: 240%;*/
+    position: relative;
+    transition: all 0.5s;
+    margin-bottom: 10px
+}
+
+.cus-slider-item {
+    width: 122px;
+    height: 80px;
+    position: relative;
+    display: inline-block;
+}
+
+.cus-slider-item-img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.cus-slider-item-icon {
+    width: 0px;
+    height: 0px;
+    border: 10px solid transparent;
+    border-bottom: 10px solid #666;
+    margin: 0 auto;
+}
+
+.cus-slider-descriptions {
+    position: relative;
+    width: 100%;
+    background-color: #00567A;
+    text-align: center;
+    margin: 0 auto;
+    color: #ffffff;
+    padding: 6px 0px 0px 8px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-size: 14px;
+}
+
+.cus-slider-navigation {
+    width: 100%;
+    position: absolute;
+    top: 21px;
+}
+
+.cus-slider-arrowleft {
+    float: left;
+    background-image: url(/Users/poojajain/Desktop/Slider/Polygon.png);
+    background-size: 75% auto;
+    background-repeat: no-repeat;
+    background-position: 0 3px;
+    width: 13px;
+    height: 22px;
+}
+
+.cus-slider-arrowrightactive {
+    background-image: url(/Users/poojajain/Desktop/Slider/Polygon2.png) !important;
+}
+
+.cus-slider-arrowright {
+    background-image: url(/Users/poojajain/Desktop/Slider/Polygon_left.png);
+    background-size: 75% auto;
+    background-repeat: no-repeat;
+    background-position: 0 3px;
+    width: 13px;
+    height: 22px;
+    float: right;
+    margin-right: 24px;
+}
+
+.cus-slider-arrowleftactive {
+    background-image: url(/Users/poojajain/Desktop/Slider/Polygon3.png) !important;
+}
+
+.cus-slider-descriptions {
+    height: 65px;
+}
+
+.cus-slider-desc {
+    display: none;
+}
+
+.cus-slider-d-active {
+    display: initial;
+}
+
+.cus-slider-img {
+    width: 122px;
+    height: 122px;
+    background-color: gray;
+}
+
+.cus-slider-imgActive {
+    width: 122px;
+    height: 122px;
+    background-color: greenyellow;
+}
